@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>target attributes</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("a[target='_blank']").hide();
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>This is target attribute in Javascrpt</h1>
+	<p><a href="https://www.henryharvin.com/blog/entrepreneurship-skills/"target="_blank">Enterpreneurship skills</a></p>
+	<p><a href="https://www.w3schools.com/html/">HTML Tutorial</a></p>
+	<button>click me</button>
+
+</body>
+</html>
